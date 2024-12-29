@@ -14,3 +14,5 @@ msg='hello'
 print('your message is',msg)
 name=input('enter your name')
 print('hey',name,'how are you')
+import keyword
+print(keyword.kwlist)
