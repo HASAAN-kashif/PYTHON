@@ -6,3 +6,11 @@ print('''my name is hasaan
                         2.science
                         3.english
                         ''')
+x=5
+y=3
+print('the value of x is',x)
+print('the value of y is',y)
+msg='hello'
+print('your message is',msg)
+name=input('enter your name')
+print('hey',name,'how are you')
