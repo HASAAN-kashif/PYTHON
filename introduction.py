@@ -16,3 +16,4 @@ name=input('enter your name')
 print('hey',name,'how are you')
 import keyword
 print(keyword.kwlist)
+name=input('enter the name')
