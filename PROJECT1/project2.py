@@ -26,3 +26,24 @@ b=-10
 # print bitwise left shift operator
 print('a << 1=',a << 1)
 print('b << 1=',b << 1)
+
+print('enter the marks obtained in 5 sub')
+markone= int(input())
+marktwo= int(input())
+markthree= int(input())
+markfour= int(input())
+markfive= int(input())
+tot=markone+marktwo+markthree+markfour+markfive
+avg=tot/5
+if avg>=91 and avg<=100:
+    print('your grade is A1')
+elif avg>=81 and avg<=91:
+    print('your grade is A2')
+elif avg>=71 and avg<=81:
+    print('your grade is B1')
+elif avg>=61 and avg<71:
+    print('your grade is B2')
+elif avg>=51 and avg<61:
+    print('your grade is C1')
+else:
+    print('invalid')
