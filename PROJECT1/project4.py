@@ -12,3 +12,4 @@ if name== 'alex' or name== 'john' and age>=2:
     print('hello! world')
 else:
     print('good bye!')
+
