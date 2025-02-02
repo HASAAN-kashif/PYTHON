@@ -1,21 +1,9 @@
-a=int(input('enter a value:'))
-b=int(input('enter value 2:'))
-c=int(input('enter value 3:'))
-avg=(a+b+c)/3
-print('avg=',avg)
-if avg>a and avg>b and avg>c:
-    print('%d is higher than %d,%d,%d%(avg,a,b,c)')
-elif avg>a and avg>b:
-    print('%d is higher than %d,%d'%(avg,a,b,c))
-elif avg>b and avg>c:
-    print('%d is higher than %d,%d'%(avg,a,b,c))
-elif avg>b and avg>c:
-    print('%d is higher than %d,%d'%(avg,a,b,c))
-elif avg>a:
-    print('%d is higher than %d'%(avg,a))
-elif avg>b:
-    print('%d is higher than %d'%(avg,b))
-elif avg>c:
-    print('%d is higher than %d'%(avg,c))
+medial_cause=input('did you have a medial cause Y or N:')
+atten=int(input('enter the attendance of the student:'))
+if medial_cause=='Y':
+    print('you are allowed')
 else:
-    print('invalid input')
+    if atten>=75:
+        print('allowed')
+    else:
+         print('not allowed')
