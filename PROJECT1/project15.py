@@ -10,3 +10,13 @@ if num==sum:
     print(num,'is an palindrome')
 else:
     print(num,'is not an palindrome')
+
+n=int(input('enter the number'))
+a=0
+print(a)
+b=1
+print(b)
+for c in range(n-2):
+    c=a+b
+    a=b
+    b=c
